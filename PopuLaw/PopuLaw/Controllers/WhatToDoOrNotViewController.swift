@@ -24,6 +24,9 @@ class WhatToDoOrNotViewController: UIViewController {
     }
 
     @IBAction func nextPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let subscriptionyVC = storyboard.instantiateViewController(withIdentifier: "InjuredPeopleViewController") as! InjuredPeopleViewController
+        self.navigationController?.pushViewController(subscriptionyVC, animated: true)
     }
 
 }

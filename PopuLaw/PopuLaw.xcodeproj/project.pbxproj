@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE38C20221BC76300039A3C0 /* FixDTPFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20121BC76300039A3C0 /* FixDTPFeaturesViewController.swift */; };
+		CE38C20421BC78120039A3C0 /* GoHospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20321BC78120039A3C0 /* GoHospitalViewController.swift */; };
+		CE38C20621BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20521BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift */; };
 		CE4404CE21BC385900FE1DAC /* WhatHappenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404CD21BC385900FE1DAC /* WhatHappenViewController.swift */; };
 		CE4404D121BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404D021BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift */; };
+		CE4404D321BC44C700FE1DAC /* InjuredPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404D221BC44C700FE1DAC /* InjuredPeopleViewController.swift */; };
+		CE4404D521BC46FF00FE1DAC /* YesInjuredPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404D421BC46FF00FE1DAC /* YesInjuredPeopleViewController.swift */; };
 		CEEEE93E21BBBFF00063EA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEE93D21BBBFF00063EA48 /* AppDelegate.swift */; };
 		CEEEE94021BBBFF00063EA48 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEE93F21BBBFF00063EA48 /* StartViewController.swift */; };
 		CEEEE94321BBBFF00063EA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEEE94121BBBFF00063EA48 /* Main.storyboard */; };
@@ -17,8 +22,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE38C20121BC76300039A3C0 /* FixDTPFeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixDTPFeaturesViewController.swift; sourceTree = "<group>"; };
+		CE38C20321BC78120039A3C0 /* GoHospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoHospitalViewController.swift; sourceTree = "<group>"; };
+		CE38C20521BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAgreeWithoutGAEViewController.swift; sourceTree = "<group>"; };
 		CE4404CD21BC385900FE1DAC /* WhatHappenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatHappenViewController.swift; sourceTree = "<group>"; };
 		CE4404D021BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToDoOrNotViewController.swift; sourceTree = "<group>"; };
+		CE4404D221BC44C700FE1DAC /* InjuredPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuredPeopleViewController.swift; sourceTree = "<group>"; };
+		CE4404D421BC46FF00FE1DAC /* YesInjuredPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesInjuredPeopleViewController.swift; sourceTree = "<group>"; };
 		CEEEE93A21BBBFF00063EA48 /* PopuLaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopuLaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEEE93D21BBBFF00063EA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEEE93F21BBBFF00063EA48 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -45,6 +55,11 @@
 				CEEEE93F21BBBFF00063EA48 /* StartViewController.swift */,
 				CE4404CD21BC385900FE1DAC /* WhatHappenViewController.swift */,
 				CE4404D021BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift */,
+				CE4404D221BC44C700FE1DAC /* InjuredPeopleViewController.swift */,
+				CE4404D421BC46FF00FE1DAC /* YesInjuredPeopleViewController.swift */,
+				CE38C20121BC76300039A3C0 /* FixDTPFeaturesViewController.swift */,
+				CE38C20321BC78120039A3C0 /* GoHospitalViewController.swift */,
+				CE38C20521BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,8 +166,13 @@
 			files = (
 				CEEEE94021BBBFF00063EA48 /* StartViewController.swift in Sources */,
 				CE4404D121BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift in Sources */,
+				CE38C20421BC78120039A3C0 /* GoHospitalViewController.swift in Sources */,
+				CE38C20221BC76300039A3C0 /* FixDTPFeaturesViewController.swift in Sources */,
 				CEEEE93E21BBBFF00063EA48 /* AppDelegate.swift in Sources */,
 				CE4404CE21BC385900FE1DAC /* WhatHappenViewController.swift in Sources */,
+				CE38C20621BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift in Sources */,
+				CE4404D321BC44C700FE1DAC /* InjuredPeopleViewController.swift in Sources */,
+				CE4404D521BC46FF00FE1DAC /* YesInjuredPeopleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
