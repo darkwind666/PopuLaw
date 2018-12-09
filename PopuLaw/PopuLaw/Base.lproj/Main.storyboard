@@ -21,11 +21,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добрый день. Успокойтесь и никого не слушайте" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-8c-lnE">
                                 <rect key="frame" x="40" y="144" width="295" height="155"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.66274509803921566" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="xMg-8c-lnE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Y8t-Uw-ixs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xMg-8c-lnE" secondAttribute="trailing" constant="40" id="gAL-EU-Cmr"/>
@@ -62,9 +62,7 @@
                                     <constraint firstAttribute="height" constant="69" id="xrs-GE-q1B"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Полицейский требует штраф">
-                                    <color key="titleColor" red="0.0017316030307564789" green="1" blue="0.25129870227306739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" title="Полицейский требует штраф"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTZ-c1-dfg">
                                 <rect key="frame" x="16" y="205" width="343" height="69"/>
@@ -102,7 +100,7 @@
                                 <state key="normal" title="Проблемы со страховкой"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="8hB-Kv-JQn" firstAttribute="leading" secondItem="jIg-Oe-Vvb" secondAttribute="leading" constant="16" id="1sq-jv-mKS"/>
                             <constraint firstItem="jIg-Oe-Vvb" firstAttribute="trailing" secondItem="8hB-Kv-JQn" secondAttribute="trailing" constant="16" id="6Xu-JT-0dw"/>
@@ -156,7 +154,7 @@
 Заглушите двигатель 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-gp-gx0">
@@ -171,7 +169,7 @@
 Не уезжайте с места происшествия
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7I-Rz-JyM">
@@ -236,7 +234,7 @@
                                     <constraint firstAttribute="height" constant="58" id="hFu-WE-vQA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9h-cB-FMM">
@@ -323,11 +321,11 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Не более 2х автомобилей (Ваш и чужой автомобиль + неважно, двигались 2 автомобиля или только один)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5J-IX-hJS">
                                                 <rect key="frame" x="74" y="8" width="301" height="82"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="nDa-Hh-OFt" firstAttribute="leading" secondItem="bMd-SN-AB5" secondAttribute="leading" constant="8" id="63N-WH-fkf"/>
                                             <constraint firstAttribute="trailing" secondItem="E5J-IX-hJS" secondAttribute="trailing" id="DnE-iW-bYs"/>
@@ -353,11 +351,11 @@
                                                 <string key="text">Повреждены только Ваши автомобили (не пострадали другие автомобили, пассажиры, водители, имущество водителей, элементам дороги)
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="FEn-PB-L7Z" firstAttribute="top" secondItem="rym-mc-9tq" secondAttribute="top" constant="26" id="0kT-9i-tsY"/>
                                             <constraint firstAttribute="height" constant="130" id="3xd-dA-GM1"/>
@@ -384,11 +382,11 @@
                                                 <string key="text">У каждого владельца автомобиля есть заключенные договоры обязательного страхования гражданской ответственности (подтверждение - бланк страхового свидетельства)
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="FWi-fe-3Jx" firstAttribute="top" secondItem="HT8-1Q-VuS" secondAttribute="top" id="BC9-iJ-Dq0"/>
                                             <constraint firstItem="bFh-8T-Ypq" firstAttribute="leading" secondItem="HT8-1Q-VuS" secondAttribute="leading" constant="8" id="CZP-r3-hh4"/>
@@ -413,11 +411,11 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="У обоих водителей нет разногласий по поводу обстоятельств ДТП и причиненного им вреда" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scT-8B-Lqf">
                                                 <rect key="frame" x="74" y="0.0" width="301" height="70"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="8pv-Rc-IUM"/>
                                             <constraint firstItem="Yar-9A-DNR" firstAttribute="leading" secondItem="icL-sx-mS6" secondAttribute="leading" constant="8" id="U6a-42-o19"/>
@@ -463,7 +461,7 @@
                                     <constraint firstAttribute="height" constant="91" id="shs-Yl-D3z"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyq-KG-56S">
@@ -586,7 +584,7 @@
                                     <constraint firstAttribute="height" constant="71" id="IQC-i7-hRL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="По Вашему мнению Вы виноваты?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fq-Wm-asa">
@@ -595,7 +593,7 @@
                                     <constraint firstAttribute="height" constant="71" id="8FI-u2-X99"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zez-W3-hzu">
@@ -688,7 +686,7 @@
                                     <constraint firstAttribute="height" constant="79" id="Eul-l0-9Jb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2) Найдите свидетелей и возьмите у них контрактную информацию" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLF-YI-GiI">
@@ -697,7 +695,7 @@
                                     <constraint firstAttribute="height" constant="79" id="oEq-lU-VlF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hny-Sc-06s">
@@ -761,11 +759,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3V-wN-NnR">
                                 <rect key="frame" x="16" y="82" width="343" height="280"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Укажите какие-нибудь смягчающие обстоятельства: плохое состояние дороги, отсутствие разметки, неработающий светофор. 
+                                <string key="text">Укажите какие-нибудь смягчающие обстоятельства: плохое состояние дороги, отсутствие разметки, неработающий светофор. 
 Если в одной из машин есть видеорегистратор - требуйте, чтобы сотрудник ГАИ изъял флеш-карту и составил соответствующий документ, приложив ее к материалам дела.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXq-Nh-D68">
@@ -811,7 +809,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Приехало ГАИ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzz-gp-ILV">
                                 <rect key="frame" x="70" y="57" width="235" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tte-wi-clz">
@@ -831,12 +829,12 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="324" id="wam-Eo-iS0"/>
                                 </constraints>
-                                <mutableString key="text">Составляем протокол
+                                <string key="text">Составляем протокол
 Подробно опишите ситуацию сотрудникам ГАИ (покажите следы торможения, место столкновения), скажите, что у вас есть свидетели происшедшего.
 Если вы не согласны с мнением ГАИ, то вправе сделать замечания и дать объяснения, которые должны быть занесены в протокол (ч. 4 ст. 10.2 ПИКоАП). Помните о том, что при рассмотрении дела в ГАИ будут руководствоваться в первую очередь выводами из протокола.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70X-s6-bWk">
@@ -847,7 +845,7 @@
                                 <string key="text">Обратите внимание!
 Вам предстоит пройти освидетельствование на определение алкоголя, в связи с этим вам как участнику ДТП запрещается потреблять алкогольные напитки до прохождения такого освидетельствования (подп. 32.2 п. 32 ПДД).</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -887,7 +885,7 @@
                                 <rect key="frame" x="16" y="164" width="343" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIV-VF-cSV">
@@ -966,11 +964,11 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="300" id="CbT-lw-Xwz"/>
                                 </constraints>
-                                <mutableString key="text">Извещение выдается страховой организацией одновременно со страховым свидетельством при заключении договора страхования. 
+                                <string key="text">Извещение выдается страховой организацией одновременно со страховым свидетельством при заключении договора страхования. 
 Также, извещение можно по первому требованию получить бесплатно у страховщика, страхового агента, в почтовом отделении, отделении ОАО "АСБ Беларусбанк", на автозаправочной станции.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nt-Bf-j5F">
@@ -1096,6 +1094,9 @@
                                     <constraint firstAttribute="height" constant="30" id="mnL-BY-ag2"/>
                                 </constraints>
                                 <state key="normal" title="Назад"/>
+                                <connections>
+                                    <action selector="backButton:" destination="Lze-Nx-DFH" eventType="touchUpInside" id="E7h-i9-ezI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-RN-XgR">
                                 <rect key="frame" x="88" y="570" width="199" height="56"/>
@@ -1116,7 +1117,7 @@
                                 </constraints>
                                 <string key="text">В течении 5 рабочих дней после дтп письменно  заявите в свою страховую организацию о получении выплаты, приложите к заявлению свой экземпляр извещения</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Чтобы получить выплату" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sK1-Iq-pJK">
@@ -1125,7 +1126,7 @@
                                     <constraint firstAttribute="height" constant="32" id="Y4a-xG-KN8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1188,7 +1189,7 @@
                                     <constraint firstAttribute="height" constant="95" id="mCJ-xa-Flp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zH-wg-tiS">
@@ -1201,7 +1202,7 @@
 alvapart.biz
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1245,7 +1246,7 @@ alvapart.biz
                                 <string key="text">1) Окажите первую помощь пострадавшим (осторожно, чтобы не осложнить положение потерпевшего, не вызвать усиления его боли, избежать новых повреждений)
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYh-zS-ywJ">
@@ -1258,14 +1259,15 @@ alvapart.biz
 2**. Не получается поймать “попутку”? Везем на своей машине (подп. 31.2 п. 31 ПДД). 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aN6-tt-xg8">
                                 <rect key="frame" x="16" y="418" width="343" height="105"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="НО! Зафиксируйте в присутствии очевидцев положение автомобиля, следы и предметы, относящиеся к ДТП (подп. 31.3 п. 31 ПДД)." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pon-Iz-2t0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pon-Iz-2t0">
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="105"/>
+                                        <string key="text">НО! Зафиксируйте в присутствии очевидцев положение автомобиля, следы и предметы, относящиеся к ДТП (подп. 31.3 п. 31 ПДД). ОБРАЗЕЦ</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1349,6 +1351,7 @@ alvapart.biz
                     </view>
                     <connections>
                         <outlet property="backButton" destination="LNw-2E-qBq" id="6vP-HZ-RSU"/>
+                        <outlet property="fixButton" destination="IrU-NG-KaU" id="M4z-oq-5nH"/>
                         <outlet property="hospitalButton" destination="wgf-1d-rZS" id="vU7-5G-hio"/>
                         <outlet property="nextButton" destination="8VL-IP-Phd" id="NZ1-xm-iG2"/>
                     </connections>
@@ -1427,7 +1430,7 @@ alvapart.biz
 - вернитесь к месту ДТП.
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-d8-CoW">
@@ -1437,7 +1440,7 @@ alvapart.biz
 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
