@@ -10,9 +10,22 @@ import UIKit
 
 class CallGAEViewController: UIViewController {
 
+    @IBOutlet weak var backButton: UIButton!
+    @IBOutlet weak var callGAEButton: UIButton!
+    
+    @IBOutlet weak var nextButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
+        setupButtonStyle(button: backButton)
+        setupButtonStyle(button: callGAEButton)
+    }
+    
+    func setupButtonStyle(button: UIButton) {
+        button.setTitleColor(UIColor.init(red: 0/255, green: 255/255, blue: 64/255, alpha: 1), for: [])
+        button.layer.cornerRadius = 10
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.init(red: 0/255, green: 255/255, blue: 64/255, alpha: 1).cgColor
     }
     
     @IBAction func callGAEPressed(_ sender: Any) {
@@ -27,6 +40,8 @@ class CallGAEViewController: UIViewController {
     }
     
     @IBAction func nextPressed(_ sender: Any) {
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let subscriptionyVC = storyboard.instantiateViewController(withIdentifier: "WhileGAEArriveViewController") as! WhileGAEArriveViewController
+        self.navigationController?.pushViewController(subscriptionyVC, animated: true)
     }
 }

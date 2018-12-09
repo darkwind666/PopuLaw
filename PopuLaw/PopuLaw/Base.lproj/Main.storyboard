@@ -21,11 +21,11 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Добрый день. Успокойтесь и никого не слушайте" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMg-8c-lnE">
                                 <rect key="frame" x="40" y="144" width="295" height="155"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0" green="0.66274509803921566" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="xMg-8c-lnE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="Y8t-Uw-ixs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xMg-8c-lnE" secondAttribute="trailing" constant="40" id="gAL-EU-Cmr"/>
@@ -62,7 +62,9 @@
                                     <constraint firstAttribute="height" constant="69" id="xrs-GE-q1B"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <state key="normal" title="Полицейский требует штраф"/>
+                                <state key="normal" title="Полицейский требует штраф">
+                                    <color key="titleColor" red="0.0017316030307564789" green="1" blue="0.25129870227306739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kTZ-c1-dfg">
                                 <rect key="frame" x="16" y="205" width="343" height="69"/>
@@ -100,7 +102,7 @@
                                 <state key="normal" title="Проблемы со страховкой"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="8hB-Kv-JQn" firstAttribute="leading" secondItem="jIg-Oe-Vvb" secondAttribute="leading" constant="16" id="1sq-jv-mKS"/>
                             <constraint firstItem="jIg-Oe-Vvb" firstAttribute="trailing" secondItem="8hB-Kv-JQn" secondAttribute="trailing" constant="16" id="6Xu-JT-0dw"/>
@@ -123,6 +125,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jIg-Oe-Vvb"/>
                     </view>
+                    <connections>
+                        <outlet property="button1" destination="8hB-Kv-JQn" id="Pz9-fp-NlB"/>
+                        <outlet property="button2" destination="kTZ-c1-dfg" id="16i-El-afs"/>
+                        <outlet property="button3" destination="2I7-fF-Hhw" id="9zi-JG-tzH"/>
+                        <outlet property="button4" destination="0eZ-WV-NVL" id="cmA-6k-X5t"/>
+                        <outlet property="button5" destination="hhu-Gp-fVF" id="Se4-Mt-hmD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6XZ-Jv-w2n" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -147,7 +156,7 @@
 Заглушите двигатель 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQg-gp-gx0">
@@ -162,7 +171,7 @@
 Не уезжайте с места происшествия
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7I-Rz-JyM">
@@ -204,6 +213,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rMV-xO-IYQ"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="n7I-Rz-JyM" id="OD8-lF-mN6"/>
+                        <outlet property="nextButton" destination="lpJ-UX-KoZ" id="RIc-PY-yh6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OgK-Yz-tgd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -223,7 +236,7 @@
                                     <constraint firstAttribute="height" constant="58" id="hFu-WE-vQA"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9h-cB-FMM">
@@ -276,6 +289,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wcj-2s-SXq"/>
                     </view>
+                    <connections>
+                        <outlet property="nextButton" destination="Trb-30-8Hc" id="rRN-CQ-U29"/>
+                        <outlet property="noButton" destination="Ml6-ao-8MR" id="TnI-Og-I8d"/>
+                        <outlet property="yesButton" destination="I9h-cB-FMM" id="4s6-eA-WHW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NlR-17-ylz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -305,11 +323,11 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Не более 2х автомобилей (Ваш и чужой автомобиль + неважно, двигались 2 автомобиля или только один)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E5J-IX-hJS">
                                                 <rect key="frame" x="74" y="8" width="301" height="82"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="nDa-Hh-OFt" firstAttribute="leading" secondItem="bMd-SN-AB5" secondAttribute="leading" constant="8" id="63N-WH-fkf"/>
                                             <constraint firstAttribute="trailing" secondItem="E5J-IX-hJS" secondAttribute="trailing" id="DnE-iW-bYs"/>
@@ -335,11 +353,11 @@
                                                 <string key="text">Повреждены только Ваши автомобили (не пострадали другие автомобили, пассажиры, водители, имущество водителей, элементам дороги)
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="FEn-PB-L7Z" firstAttribute="top" secondItem="rym-mc-9tq" secondAttribute="top" constant="26" id="0kT-9i-tsY"/>
                                             <constraint firstAttribute="height" constant="130" id="3xd-dA-GM1"/>
@@ -366,11 +384,11 @@
                                                 <string key="text">У каждого владельца автомобиля есть заключенные договоры обязательного страхования гражданской ответственности (подтверждение - бланк страхового свидетельства)
 </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="FWi-fe-3Jx" firstAttribute="top" secondItem="HT8-1Q-VuS" secondAttribute="top" id="BC9-iJ-Dq0"/>
                                             <constraint firstItem="bFh-8T-Ypq" firstAttribute="leading" secondItem="HT8-1Q-VuS" secondAttribute="leading" constant="8" id="CZP-r3-hh4"/>
@@ -395,11 +413,11 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="У обоих водителей нет разногласий по поводу обстоятельств ДТП и причиненного им вреда" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scT-8B-Lqf">
                                                 <rect key="frame" x="74" y="0.0" width="301" height="70"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="backgroundColor" red="0.0" green="0.66274509800000003" blue="0.88235294119999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="8pv-Rc-IUM"/>
                                             <constraint firstItem="Yar-9A-DNR" firstAttribute="leading" secondItem="icL-sx-mS6" secondAttribute="leading" constant="8" id="U6a-42-o19"/>
@@ -445,7 +463,7 @@
                                     <constraint firstAttribute="height" constant="91" id="shs-Yl-D3z"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyq-KG-56S">
@@ -479,6 +497,8 @@
                         <viewLayoutGuide key="safeArea" id="iIR-YK-MRg"/>
                     </view>
                     <connections>
+                        <outlet property="backButton" destination="VSb-LO-op4" id="lMS-xK-e2s"/>
+                        <outlet property="nextButton" destination="Uyq-KG-56S" id="ZUz-hS-KVh"/>
                         <outlet property="switch1" destination="nDa-Hh-OFt" id="dcB-hf-1MC"/>
                         <outlet property="switch2" destination="FEn-PB-L7Z" id="aim-MO-VKl"/>
                         <outlet property="switch3" destination="bFh-8T-Ypq" id="Nub-ch-e7U"/>
@@ -542,6 +562,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V5c-7l-8Be"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="M8S-xY-ENG" id="aol-hy-gip"/>
+                        <outlet property="callGAEButton" destination="veq-6L-Nn1" id="pgd-ff-7CR"/>
+                        <outlet property="nextButton" destination="JMc-BT-tRB" id="lT5-N5-HHT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hbk-dH-0py" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -561,7 +586,7 @@
                                     <constraint firstAttribute="height" constant="71" id="IQC-i7-hRL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="По Вашему мнению Вы виноваты?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9fq-Wm-asa">
@@ -570,7 +595,7 @@
                                     <constraint firstAttribute="height" constant="71" id="8FI-u2-X99"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zez-W3-hzu">
@@ -627,6 +652,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zuX-5K-cWa"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="bP6-ES-ZyT" id="DTS-QW-Auh"/>
+                        <outlet property="noButton" destination="Lf8-UT-eCL" id="QU3-4C-O6c"/>
+                        <outlet property="yesButton" destination="Zez-W3-hzu" id="lPF-3x-G1k"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QTq-DY-rgu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -658,7 +688,7 @@
                                     <constraint firstAttribute="height" constant="79" id="Eul-l0-9Jb"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2) Найдите свидетелей и возьмите у них контрактную информацию" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xLF-YI-GiI">
@@ -667,7 +697,7 @@
                                     <constraint firstAttribute="height" constant="79" id="oEq-lU-VlF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hny-Sc-06s">
@@ -699,6 +729,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Xw5-cb-UqB"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="ZtZ-h2-Pug" id="6Ic-41-2Yl"/>
+                        <outlet property="nextButton" destination="hny-Sc-06s" id="tSH-Wr-ljE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97y-yz-WBF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -731,7 +765,7 @@
 Если в одной из машин есть видеорегистратор - требуйте, чтобы сотрудник ГАИ изъял флеш-карту и составил соответствующий документ, приложив ее к материалам дела.
 </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXq-Nh-D68">
@@ -757,6 +791,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LV3-tA-jv6"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="cjS-Wa-FY0" id="pS6-xt-iRA"/>
+                        <outlet property="nextButton" destination="NXq-Nh-D68" id="sns-b8-UJ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V3z-T9-EZb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -773,7 +811,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Приехало ГАИ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzz-gp-ILV">
                                 <rect key="frame" x="70" y="57" width="235" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tte-wi-clz">
@@ -798,7 +836,7 @@
 Если вы не согласны с мнением ГАИ, то вправе сделать замечания и дать объяснения, которые должны быть занесены в протокол (ч. 4 ст. 10.2 ПИКоАП). Помните о том, что при рассмотрении дела в ГАИ будут руководствоваться в первую очередь выводами из протокола.
 </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70X-s6-bWk">
@@ -809,7 +847,7 @@
                                 <string key="text">Обратите внимание!
 Вам предстоит пройти освидетельствование на определение алкоголя, в связи с этим вам как участнику ДТП запрещается потреблять алкогольные напитки до прохождения такого освидетельствования (подп. 32.2 п. 32 ПДД).</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -829,6 +867,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="7fa-PN-uze"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="tte-wi-clz" id="s3A-xS-hNK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tNa-Nq-vf2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -846,7 +887,7 @@
                                 <rect key="frame" x="16" y="164" width="343" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vIV-VF-cSV">
@@ -883,6 +924,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Tve-KM-tEQ"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="vIV-VF-cSV" id="tB8-tY-Raw"/>
+                        <outlet property="nextButton" destination="OXH-Oc-voq" id="i3V-mI-HGE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCL-XQ-GIV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -925,7 +970,7 @@
 Также, извещение можно по первому требованию получить бесплатно у страховщика, страхового агента, в почтовом отделении, отделении ОАО "АСБ Беларусбанк", на автозаправочной станции.
 </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Nt-Bf-j5F">
@@ -971,6 +1016,11 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="VvC-iW-896"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="cfw-C0-xG3" id="BEg-qq-PNx"/>
+                        <outlet property="nextButton" destination="hlM-G6-4m6" id="hIv-Mo-P0s"/>
+                        <outlet property="templateButton" destination="3Nt-Bf-j5F" id="XCc-uu-Fav"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VWN-pA-XtN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -995,22 +1045,114 @@
                                     <action selector="backPressed:" destination="swK-Zt-htL" eventType="touchUpInside" id="a9s-23-IIc"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="GAETemplate" translatesAutoresizingMaskIntoConstraints="NO" id="wb7-Ro-Osh">
-                                <rect key="frame" x="16" y="84" width="343" height="563"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="zwR-TS-anj">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="GAETemplate" translatesAutoresizingMaskIntoConstraints="NO" id="wb7-Ro-Osh">
+                                        <rect key="frame" x="20" y="20" width="336" height="575"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="wb7-Ro-Osh" secondAttribute="bottom" constant="8" id="VLh-ND-Sck"/>
+                                    <constraint firstAttribute="trailing" secondItem="wb7-Ro-Osh" secondAttribute="trailing" constant="19" id="cwI-Yr-Ytx"/>
+                                    <constraint firstItem="wb7-Ro-Osh" firstAttribute="top" secondItem="zwR-TS-anj" secondAttribute="top" constant="20" id="hu6-3q-hGm"/>
+                                    <constraint firstItem="wb7-Ro-Osh" firstAttribute="leading" secondItem="zwR-TS-anj" secondAttribute="leading" constant="20" id="ipV-5a-GAa"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="zwR-TS-anj" firstAttribute="bottom" secondItem="Sx2-XQ-h8m" secondAttribute="bottom" id="FTa-Nt-Zy3"/>
                             <constraint firstItem="bNn-ym-jhd" firstAttribute="top" secondItem="Sx2-XQ-h8m" secondAttribute="top" id="J3W-Ty-zrN"/>
                             <constraint firstItem="bNn-ym-jhd" firstAttribute="leading" secondItem="Sx2-XQ-h8m" secondAttribute="leading" constant="16" id="WVT-y2-TE7"/>
+                            <constraint firstItem="zwR-TS-anj" firstAttribute="top" secondItem="bNn-ym-jhd" secondAttribute="bottom" constant="14" id="k2q-aR-DeJ"/>
+                            <constraint firstItem="zwR-TS-anj" firstAttribute="leading" secondItem="ttz-0m-S5F" secondAttribute="leading" id="r8z-zc-4yY"/>
+                            <constraint firstAttribute="trailing" secondItem="zwR-TS-anj" secondAttribute="trailing" id="xD7-Ov-SSJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Sx2-XQ-h8m"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="bNn-ym-jhd" id="44C-sV-eMB"/>
+                        <outlet property="imageView" destination="wb7-Ro-Osh" id="Bsk-ib-vFW"/>
+                        <outlet property="scrollView" destination="zwR-TS-anj" id="fQE-4m-ah2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aYw-4D-7QM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4805.6000000000004" y="1437.9310344827588"/>
+        </scene>
+        <!--Send Insurence Notice View Controller-->
+        <scene sceneID="fgz-nb-s4A">
+            <objects>
+                <viewController storyboardIdentifier="SendInsurenceNoticeViewController" id="Lze-Nx-DFH" customClass="SendInsurenceNoticeViewController" customModule="PopuLaw" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4pW-X5-PLx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zvf-e5-EGC">
+                                <rect key="frame" x="16" y="20" width="61" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="61" id="lU9-dv-QMD"/>
+                                    <constraint firstAttribute="height" constant="30" id="mnL-BY-ag2"/>
+                                </constraints>
+                                <state key="normal" title="Назад"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mb1-RN-XgR">
+                                <rect key="frame" x="88" y="570" width="199" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="56" id="YPx-rh-83A"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="z1L-Ti-rTd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="Далее"/>
+                                <connections>
+                                    <action selector="nextPressed:" destination="Lze-Nx-DFH" eventType="touchUpInside" id="yQp-Gs-Ab6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oyb-Kq-fb7">
+                                <rect key="frame" x="16" y="137" width="343" height="182"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="182" id="H55-lN-zca"/>
+                                </constraints>
+                                <string key="text">В течении 5 рабочих дней после дтп письменно  заявите в свою страховую организацию о получении выплаты, приложите к заявлению свой экземпляр извещения</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Чтобы получить выплату" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sK1-Iq-pJK">
+                                <rect key="frame" x="41" y="84" width="292" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="Y4a-xG-KN8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="oyb-Kq-fb7" firstAttribute="top" secondItem="sK1-Iq-pJK" secondAttribute="bottom" constant="21" id="2pT-Nn-MRk"/>
+                            <constraint firstItem="Zvf-e5-EGC" firstAttribute="leading" secondItem="YL5-BM-r3H" secondAttribute="leading" constant="16" id="5ia-UI-kFr"/>
+                            <constraint firstItem="Mb1-RN-XgR" firstAttribute="leading" secondItem="YL5-BM-r3H" secondAttribute="leading" constant="88" id="DFN-V9-orG"/>
+                            <constraint firstItem="YL5-BM-r3H" firstAttribute="trailing" secondItem="sK1-Iq-pJK" secondAttribute="trailing" constant="42" id="P8C-n1-fyU"/>
+                            <constraint firstItem="oyb-Kq-fb7" firstAttribute="leading" secondItem="YL5-BM-r3H" secondAttribute="leading" constant="16" id="Qsh-gU-6gY"/>
+                            <constraint firstItem="Zvf-e5-EGC" firstAttribute="top" secondItem="YL5-BM-r3H" secondAttribute="top" id="VMs-Gj-9pa"/>
+                            <constraint firstItem="sK1-Iq-pJK" firstAttribute="top" secondItem="Zvf-e5-EGC" secondAttribute="bottom" constant="34" id="cYs-oD-S0U"/>
+                            <constraint firstItem="YL5-BM-r3H" firstAttribute="trailing" secondItem="Mb1-RN-XgR" secondAttribute="trailing" constant="88" id="jRM-Vx-nZY"/>
+                            <constraint firstItem="sK1-Iq-pJK" firstAttribute="leading" secondItem="YL5-BM-r3H" secondAttribute="leading" constant="41" id="kt4-Fc-xxY"/>
+                            <constraint firstItem="YL5-BM-r3H" firstAttribute="bottom" secondItem="Mb1-RN-XgR" secondAttribute="bottom" constant="41" id="lS8-d5-dSc"/>
+                            <constraint firstItem="YL5-BM-r3H" firstAttribute="trailing" secondItem="oyb-Kq-fb7" secondAttribute="trailing" constant="16" id="sXE-0W-5Vy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="YL5-BM-r3H"/>
+                    </view>
+                    <connections>
+                        <outlet property="backButton" destination="Mb1-RN-XgR" id="1l5-2g-2xT"/>
+                        <outlet property="nextButton" destination="Zvf-e5-EGC" id="EPH-Ah-iUO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whw-qP-P5g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4149.6000000000004" y="2112.5937031484259"/>
         </scene>
         <!--Advertisement View Controller-->
         <scene sceneID="ggi-aK-BSW">
@@ -1028,7 +1170,7 @@
                                 </constraints>
                                 <state key="normal" title="Назад"/>
                                 <connections>
-                                    <action selector="backPressed:" destination="swK-Zt-htL" eventType="touchUpInside" id="fdf-d3-U2t"/>
+                                    <action selector="backPressed:" destination="mvS-dB-PYf" eventType="touchUpInside" id="ggz-OS-4sT"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Удачи!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FbI-9M-HaK">
@@ -1040,13 +1182,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Если дальше вам требуется поддержка юриста,обращайтесь:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFb-gQ-Lxj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Не удалось защитить свои права самостоятельно? Обратитесь за помощью к квалифицированным специалистам" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFb-gQ-Lxj">
                                 <rect key="frame" x="16" y="156" width="343" height="95"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="95" id="mCJ-xa-Flp"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zH-wg-tiS">
@@ -1059,7 +1201,7 @@
 alvapart.biz
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1079,6 +1221,9 @@ alvapart.biz
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pMs-Bp-7Xw"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="Ze1-3v-NdO" id="vsn-94-G0Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="11I-nh-HOj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1100,7 +1245,7 @@ alvapart.biz
                                 <string key="text">1) Окажите первую помощь пострадавшим (осторожно, чтобы не осложнить положение потерпевшего, не вызвать усиления его боли, избежать новых повреждений)
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NYh-zS-ywJ">
@@ -1113,7 +1258,7 @@ alvapart.biz
 2**. Не получается поймать “попутку”? Везем на своей машине (подп. 31.2 п. 31 ПДД). 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aN6-tt-xg8">
@@ -1202,6 +1347,11 @@ alvapart.biz
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yIU-RA-ueI"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="LNw-2E-qBq" id="6vP-HZ-RSU"/>
+                        <outlet property="hospitalButton" destination="wgf-1d-rZS" id="vU7-5G-hio"/>
+                        <outlet property="nextButton" destination="8VL-IP-Phd" id="NZ1-xm-iG2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jOn-fb-dTz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1226,18 +1376,28 @@ alvapart.biz
                                     <action selector="backPressed:" destination="MJe-qe-PjO" eventType="touchUpInside" id="jC9-67-a5o"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scheme" translatesAutoresizingMaskIntoConstraints="NO" id="FLv-ci-pUD">
+                                <rect key="frame" x="16" y="80" width="343" height="567"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="bUi-Wk-Bu4" firstAttribute="top" secondItem="cnH-aM-W8r" secondAttribute="top" id="8FN-Na-FsM"/>
+                            <constraint firstItem="cnH-aM-W8r" firstAttribute="bottom" secondItem="FLv-ci-pUD" secondAttribute="bottom" constant="20" id="Yi8-1A-RS2"/>
+                            <constraint firstItem="FLv-ci-pUD" firstAttribute="leading" secondItem="cnH-aM-W8r" secondAttribute="leading" constant="16" id="iBa-nJ-Bfo"/>
+                            <constraint firstItem="FLv-ci-pUD" firstAttribute="top" secondItem="bUi-Wk-Bu4" secondAttribute="bottom" constant="30" id="jgA-6J-cP0"/>
+                            <constraint firstItem="cnH-aM-W8r" firstAttribute="trailing" secondItem="FLv-ci-pUD" secondAttribute="trailing" constant="16" id="l9O-01-SoD"/>
                             <constraint firstItem="bUi-Wk-Bu4" firstAttribute="leading" secondItem="cnH-aM-W8r" secondAttribute="leading" constant="16" id="pu5-dQ-9t1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cnH-aM-W8r"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="bUi-Wk-Bu4" id="lmY-nV-Muu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UHT-uI-nu6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3488" y="-311"/>
+            <point key="canvasLocation" x="3487.1999999999998" y="-311.69415292353824"/>
         </scene>
         <!--Go Hospital View Controller-->
         <scene sceneID="Am8-Ga-VUT">
@@ -1267,7 +1427,7 @@ alvapart.biz
 - вернитесь к месту ДТП.
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVW-d8-CoW">
@@ -1277,7 +1437,7 @@ alvapart.biz
 
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.0017316030310000001" green="1" blue="0.25129870230000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1288,6 +1448,9 @@ alvapart.biz
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Gkk-1q-uSO"/>
                     </view>
+                    <connections>
+                        <outlet property="backButton" destination="Yd3-WE-C3S" id="Jvd-Ib-gfv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iqq-wH-PcT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1296,5 +1459,6 @@ alvapart.biz
     </scenes>
     <resources>
         <image name="GAETemplate" width="283" height="400"/>
+        <image name="scheme" width="380" height="256"/>
     </resources>
 </document>

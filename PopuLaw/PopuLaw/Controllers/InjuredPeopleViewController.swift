@@ -9,10 +9,28 @@
 import UIKit
 
 class InjuredPeopleViewController: UIViewController {
-
+    
+    @IBOutlet weak var nextButton: UIButton!
+    
+    @IBOutlet weak var yesButton: UIButton!
+    
+    @IBOutlet weak var noButton: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
+        
+        setupButtonStyle(button: yesButton)
+        setupButtonStyle(button: nextButton)
+        setupButtonStyle(button: noButton)
+    }
+    
+    func setupButtonStyle(button: UIButton) {
+        button.setTitleColor(UIColor.init(red: 0/255, green: 255/255, blue: 64/255, alpha: 1), for: [])
+        button.layer.cornerRadius = 10
+        button.layer.borderWidth = 1
+        button.layer.borderColor = UIColor.init(red: 0/255, green: 255/255, blue: 64/255, alpha: 1).cgColor
     }
     
     @IBAction func yesPressed(_ sender: Any) {

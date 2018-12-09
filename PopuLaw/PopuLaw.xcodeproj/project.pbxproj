@@ -23,6 +23,7 @@
 		CEBB5CE721BD138600DF8947 /* GAETemplateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5CE621BD138600DF8947 /* GAETemplateViewController.swift */; };
 		CEBB5CE921BD1A2D00DF8947 /* GAETemplateFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5CE821BD1A2D00DF8947 /* GAETemplateFileViewController.swift */; };
 		CEBB5CEB21BD209600DF8947 /* AdvertisementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5CEA21BD209600DF8947 /* AdvertisementViewController.swift */; };
+		CEBB5CED21BD26CB00DF8947 /* SendInsurenceNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB5CEC21BD26CB00DF8947 /* SendInsurenceNoticeViewController.swift */; };
 		CEEEE93E21BBBFF00063EA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEE93D21BBBFF00063EA48 /* AppDelegate.swift */; };
 		CEEEE94021BBBFF00063EA48 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEEE93F21BBBFF00063EA48 /* StartViewController.swift */; };
 		CEEEE94321BBBFF00063EA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEEEE94121BBBFF00063EA48 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		CEBB5CE621BD138600DF8947 /* GAETemplateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAETemplateViewController.swift; sourceTree = "<group>"; };
 		CEBB5CE821BD1A2D00DF8947 /* GAETemplateFileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAETemplateFileViewController.swift; sourceTree = "<group>"; };
 		CEBB5CEA21BD209600DF8947 /* AdvertisementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementViewController.swift; sourceTree = "<group>"; };
+		CEBB5CEC21BD26CB00DF8947 /* SendInsurenceNoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInsurenceNoticeViewController.swift; sourceTree = "<group>"; };
 		CEEEE93A21BBBFF00063EA48 /* PopuLaw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopuLaw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEEEE93D21BBBFF00063EA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEEEE93F21BBBFF00063EA48 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				CEBB5CE621BD138600DF8947 /* GAETemplateViewController.swift */,
 				CEBB5CE821BD1A2D00DF8947 /* GAETemplateFileViewController.swift */,
 				CEBB5CEA21BD209600DF8947 /* AdvertisementViewController.swift */,
+				CEBB5CEC21BD26CB00DF8947 /* SendInsurenceNoticeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				CE38C20A21BC9A2F0039A3C0 /* MakeDTPNoticeViewController.swift in Sources */,
 				CEEEE94021BBBFF00063EA48 /* StartViewController.swift in Sources */,
 				CEBB5CE721BD138600DF8947 /* GAETemplateViewController.swift in Sources */,
+				CEBB5CED21BD26CB00DF8947 /* SendInsurenceNoticeViewController.swift in Sources */,
 				CE4404D121BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift in Sources */,
 				CE38C20421BC78120039A3C0 /* GoHospitalViewController.swift in Sources */,
 				CE38C20221BC76300039A3C0 /* FixDTPFeaturesViewController.swift in Sources */,

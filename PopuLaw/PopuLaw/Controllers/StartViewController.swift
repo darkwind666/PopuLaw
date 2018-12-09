@@ -12,7 +12,7 @@ class StartViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor.init(red: 0/255, green: 169/255, blue: 225/255, alpha: 1)
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTap(_:)))
         self.view.addGestureRecognizer(tapGesture)
     }
