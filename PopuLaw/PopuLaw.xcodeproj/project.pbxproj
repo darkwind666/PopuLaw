@@ -10,6 +10,8 @@
 		CE38C20221BC76300039A3C0 /* FixDTPFeaturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20121BC76300039A3C0 /* FixDTPFeaturesViewController.swift */; };
 		CE38C20421BC78120039A3C0 /* GoHospitalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20321BC78120039A3C0 /* GoHospitalViewController.swift */; };
 		CE38C20621BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20521BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift */; };
+		CE38C20821BC91AB0039A3C0 /* CallGAEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20721BC91AB0039A3C0 /* CallGAEViewController.swift */; };
+		CE38C20A21BC9A2F0039A3C0 /* MakeDTPNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE38C20921BC9A2F0039A3C0 /* MakeDTPNoticeViewController.swift */; };
 		CE4404CE21BC385900FE1DAC /* WhatHappenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404CD21BC385900FE1DAC /* WhatHappenViewController.swift */; };
 		CE4404D121BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404D021BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift */; };
 		CE4404D321BC44C700FE1DAC /* InjuredPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4404D221BC44C700FE1DAC /* InjuredPeopleViewController.swift */; };
@@ -25,6 +27,8 @@
 		CE38C20121BC76300039A3C0 /* FixDTPFeaturesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixDTPFeaturesViewController.swift; sourceTree = "<group>"; };
 		CE38C20321BC78120039A3C0 /* GoHospitalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoHospitalViewController.swift; sourceTree = "<group>"; };
 		CE38C20521BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAgreeWithoutGAEViewController.swift; sourceTree = "<group>"; };
+		CE38C20721BC91AB0039A3C0 /* CallGAEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallGAEViewController.swift; sourceTree = "<group>"; };
+		CE38C20921BC9A2F0039A3C0 /* MakeDTPNoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeDTPNoticeViewController.swift; sourceTree = "<group>"; };
 		CE4404CD21BC385900FE1DAC /* WhatHappenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatHappenViewController.swift; sourceTree = "<group>"; };
 		CE4404D021BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatToDoOrNotViewController.swift; sourceTree = "<group>"; };
 		CE4404D221BC44C700FE1DAC /* InjuredPeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjuredPeopleViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				CE38C20121BC76300039A3C0 /* FixDTPFeaturesViewController.swift */,
 				CE38C20321BC78120039A3C0 /* GoHospitalViewController.swift */,
 				CE38C20521BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift */,
+				CE38C20721BC91AB0039A3C0 /* CallGAEViewController.swift */,
+				CE38C20921BC9A2F0039A3C0 /* MakeDTPNoticeViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -164,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE38C20A21BC9A2F0039A3C0 /* MakeDTPNoticeViewController.swift in Sources */,
 				CEEEE94021BBBFF00063EA48 /* StartViewController.swift in Sources */,
 				CE4404D121BC3FE300FE1DAC /* WhatToDoOrNotViewController.swift in Sources */,
 				CE38C20421BC78120039A3C0 /* GoHospitalViewController.swift in Sources */,
@@ -172,6 +179,7 @@
 				CE4404CE21BC385900FE1DAC /* WhatHappenViewController.swift in Sources */,
 				CE38C20621BC7B750039A3C0 /* CheckAgreeWithoutGAEViewController.swift in Sources */,
 				CE4404D321BC44C700FE1DAC /* InjuredPeopleViewController.swift in Sources */,
+				CE38C20821BC91AB0039A3C0 /* CallGAEViewController.swift in Sources */,
 				CE4404D521BC46FF00FE1DAC /* YesInjuredPeopleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
