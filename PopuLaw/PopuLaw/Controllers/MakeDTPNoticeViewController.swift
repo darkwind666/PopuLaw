@@ -22,6 +22,8 @@ class MakeDTPNoticeViewController: UIViewController {
     }
     
     @IBAction func nextPressed(_ sender: Any) {
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let subscriptionyVC = storyboard.instantiateViewController(withIdentifier: "GAETemplateViewController") as! GAETemplateViewController
+        self.navigationController?.pushViewController(subscriptionyVC, animated: true)
     }
 }

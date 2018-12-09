@@ -14,5 +14,16 @@ class NoGulityViewController: UIViewController {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
     }
-
+    
+    @IBAction func backPressed(_ sender: Any) {
+        if let navController = self.navigationController {
+            navController.popViewController(animated: true)
+        }
+    }
+    
+    @IBAction func nextPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let subscriptionyVC = storyboard.instantiateViewController(withIdentifier: "ArriveGAEViewController") as! ArriveGAEViewController
+        self.navigationController?.pushViewController(subscriptionyVC, animated: true)
+    }
 }

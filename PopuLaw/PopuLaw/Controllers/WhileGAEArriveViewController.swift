@@ -28,6 +28,8 @@ class WhileGAEArriveViewController: UIViewController {
     }
     
     @IBAction func noPressed(_ sender: Any) {
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let subscriptionyVC = storyboard.instantiateViewController(withIdentifier: "NoGulityViewController") as! NoGulityViewController
+        self.navigationController?.pushViewController(subscriptionyVC, animated: true)
     }
 }

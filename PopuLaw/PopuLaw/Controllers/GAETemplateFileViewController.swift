@@ -1,5 +1,5 @@
 //
-//  YesGulityViewController.swift
+//  GAETemplateFileViewController.swift
 //  PopuLaw
 //
 //  Created by user on 12/9/18.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YesGulityViewController: UIViewController {
+class GAETemplateFileViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +20,5 @@ class YesGulityViewController: UIViewController {
             navController.popViewController(animated: true)
         }
     }
-    
-    @IBAction func nextPressed(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let subscriptionyVC = storyboard.instantiateViewController(withIdentifier: "ArriveGAEViewController") as! ArriveGAEViewController
-        self.navigationController?.pushViewController(subscriptionyVC, animated: true)
-    }
+
 }
